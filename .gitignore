@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# JavaScript
+node_modules/
+dist/
+build/
+.next/
+
+# Data and generated artifacts
+*.log
+logs/
+tmp/
